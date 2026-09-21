@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "BasicProfitStudio Freelancer Bookkeeping",
+  "short_name": "BasicProfit",
+  "description": "A simple financial cockpit for freelancers: invoices, expenses, cash and a monthly review. Your data stays on your device.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#1b3552",
+  "background_color": "#f4f4f1",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Add invoice", "short_name": "Invoice", "url": "./#/new-invoice", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Add expense", "short_name": "Expense", "url": "./#/new-expense", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Export a backup", "short_name": "Backup", "url": "./#/backup", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}
